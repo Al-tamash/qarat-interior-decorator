@@ -1,0 +1,189 @@
+.interior-bento-section {
+  padding: 100px 24px;
+  background-color: #F7F4EF;
+  font-family: var(--font-body);
+  color: #24211E;
+}
+
+.ib-container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* Text Block */
+.ib-text-block {
+  margin-bottom: 40px;
+  max-width: 600px;
+}
+
+.ib-eyebrow {
+  display: inline-block;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #24211E;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 15px;
+}
+
+.ib-title {
+  font-family: var(--font-heading);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 20px 0;
+  color: #24211E;
+}
+
+.ib-desc {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #555555;
+  margin: 0;
+}
+
+/* Cards Wrapper & Layout */
+.ib-cards-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 24px;
+  padding-bottom: 40px;
+  padding-top: 10px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.ib-cards-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .ib-container {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+  }
+  
+  .ib-text-block {
+    flex: 0 0 32%;
+    margin-bottom: 0;
+  }
+  
+  .ib-cards-wrapper {
+    flex: 1;
+  }
+}
+
+/* Base Card Styles - Arch Design */
+.ib-card {
+  flex: 0 0 280px;
+  scroll-snap-align: start;
+  background-color: transparent;
+  border-radius: 0;
+  overflow: visible;
+  text-decoration: none;
+  color: #24211E;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+@media (min-width: 768px) {
+  .ib-card {
+    background-color: #FFFFFF;
+    border-radius: 120px 120px 30px 30px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.04);
+    align-items: stretch;
+    text-align: center;
+  }
+}
+
+.ib-card:hover {
+  transform: translateY(-10px);
+}
+
+@media (min-width: 768px) {
+  .ib-card:hover {
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+  }
+}
+
+.ib-img-arch {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 20px auto;
+}
+
+@media (min-width: 768px) {
+  .ib-img-arch {
+    width: 100%;
+    height: 250px;
+    border-radius: 0;
+    margin: 0;
+  }
+}
+
+.ib-img-arch img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.8s ease;
+}
+
+.ib-card:hover .ib-img-arch img {
+  transform: scale(1.08);
+}
+
+.ib-card-content {
+  padding: 24px 20px 35px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.ib-card-title {
+  font-family: var(--font-heading);
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #24211E;
+  margin: 0 0 10px 0;
+}
+
+.ib-card-desc {
+  font-size: 0.95rem;
+  color: #6F6962;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Simple Link Button */
+.ib-button-wrapper {
+  margin-top: 30px;
+}
+
+.ib-link-text {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 700;
+  color: #24211E;
+  text-decoration: none;
+  border-bottom: 2px solid #B79A6B;
+  padding-bottom: 4px;
+  transition: color 0.3s ease;
+}
+
+.ib-link-text:hover {
+  color: #B79A6B;
+}
