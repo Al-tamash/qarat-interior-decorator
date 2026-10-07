@@ -22,7 +22,11 @@ const ContactFormBlock = () => {
             <p className="info-eyebrow">Visit Our Showroom</p>
             <h3 className="info-brand">Qarat Interior Decorator</h3>
             <p className="info-detail">Ali Nawab Market, Hardoi Road, Dubagga, Lucknow, Uttar Pradesh – 226003</p>
-            <p className="info-detail"><strong>PHONE / WHATSAPP:</strong> 09336411421</p>
+            <p className="info-detail">
+              <strong>PHONE / WHATSAPP:</strong>{' '}
+              <a href="tel:09336411421" style={{ color: 'inherit', textDecoration: 'none' }}>09336411421</a> /{' '}
+              <a href="tel:09044903338" style={{ color: 'inherit', textDecoration: 'none' }}>9044903338</a>
+            </p>
             <p className="info-detail"><strong>EMAIL:</strong> contact@qarat.in</p>
 
             <div className="info-map-wrapper">

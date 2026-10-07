@@ -68,6 +68,10 @@ const Footer = () => {
                 <span itemProp="addressLocality">Lucknow</span>, <span itemProp="addressRegion">Uttar Pradesh</span> – <span itemProp="postalCode">226003</span>
               </p>
 
+              <p className="footer-contact-phone" style={{ marginTop: '12px', fontSize: '0.9rem', color: '#D8D2CA' }}>
+                <a href="tel:09336411421" itemProp="telephone" style={{ color: 'inherit', textDecoration: 'none' }}>09336411421</a> / <a href="tel:09044903338" itemProp="telephone" style={{ color: 'inherit', textDecoration: 'none' }}>9044903338</a>
+              </p>
+
               
               <div style={{ display: 'none' }}>
                 <a href="https://www.facebook.com/qarat" itemProp="sameAs">Facebook</a>

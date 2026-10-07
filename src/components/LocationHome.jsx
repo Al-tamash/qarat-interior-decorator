@@ -22,7 +22,9 @@ const LocationHome = () => {
                 Ali Nawab Market, Hardoi Road, Dubagga,<br />
                 Lucknow, Uttar Pradesh – 226003
               </p>
-              <p className="contact-text">Phone / WhatsApp: 09336411421</p>
+              <p className="contact-text">
+                Phone: <a href="tel:09336411421" style={{ color: 'inherit', textDecoration: 'none', fontWeight: 600 }}>09336411421</a> / <a href="tel:09044903338" style={{ color: 'inherit', textDecoration: 'none', fontWeight: 600 }}>9044903338</a>
+              </p>
             </div>
 
             <div className="location-actions">
