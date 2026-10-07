@@ -1,0 +1,82 @@
+.qarat-logo-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  user-select: none;
+}
+
+.qarat-logo-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  line-height: 1;
+}
+
+.qarat-logo-brand.vertical {
+  flex-direction: column;
+  text-align: center;
+  gap: 8px;
+}
+
+.qarat-emblem-svg {
+  flex-shrink: 0;
+  display: block;
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.qarat-logo-link:hover .qarat-emblem-svg,
+.qarat-logo-brand:hover .qarat-emblem-svg {
+  transform: rotate(4deg) scale(1.04);
+}
+
+.qarat-logo-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.qarat-brand-name {
+  font-family: var(--font-heading, 'Lora', serif);
+  font-size: 1.45rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: inherit;
+  line-height: 1;
+  transition: color 0.3s ease;
+}
+
+.qarat-brand-sub {
+  font-family: var(--font-body, 'Nunito', sans-serif);
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--accent-primary, #B79A6B);
+  margin-top: 5px;
+  line-height: 1.1;
+  transition: color 0.3s ease;
+}
+
+/* Size Variants */
+.qarat-logo-brand.size-sm .qarat-brand-name {
+  font-size: 1.15rem;
+  letter-spacing: 0.1em;
+}
+
+.qarat-logo-brand.size-sm .qarat-brand-sub {
+  font-size: 0.55rem;
+  letter-spacing: 0.22em;
+  margin-top: 3px;
+}
+
+.qarat-logo-brand.size-lg .qarat-brand-name {
+  font-size: 1.85rem;
+  letter-spacing: 0.14em;
+}
+
+.qarat-logo-brand.size-lg .qarat-brand-sub {
+  font-size: 0.75rem;
+  letter-spacing: 0.3em;
+  margin-top: 6px;
+}

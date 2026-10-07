@@ -57,7 +57,7 @@
   display: flex;
   align-items: center;
   background-size: cover;
-  background-position: center;
+  background-position: center top;
   padding: 100px 0;
 }
 
@@ -270,10 +270,10 @@
 .sp-services-grid {
   display: flex;
   flex-wrap: nowrap;
-  gap: 40px;
+  gap: 30px;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
 }
@@ -293,10 +293,43 @@
   transition: transform 0.3s ease;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .sp-service-card {
     flex: 0 0 auto;
-    width: 320px;
+    width: 300px;
+  }
+}
+
+/* Desktop: auto-fit grid so 4 cards fit cleanly inside container without cutoff */
+@media (min-width: 1024px) {
+  .sp-services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+    overflow-x: visible;
+    padding-bottom: 20px;
+  }
+
+  .sp-service-card {
+    width: 100%;
+    max-width: 100%;
+    flex: none;
+  }
+
+  .sp-service-img-wrap {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sp-services-grid {
+    gap: 28px;
+  }
+
+  .sp-service-img-wrap {
+    width: 210px;
+    height: 210px;
   }
 }
 
@@ -305,8 +338,8 @@
 }
 
 .sp-service-img-wrap {
-  width: 260px;
-  height: 260px;
+  width: 240px;
+  height: 240px;
   border-radius: 50%;
   position: relative;
   margin-bottom: 24px;
@@ -553,6 +586,8 @@
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
   text-align: left;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
 }
 
 .sp-reviews-flex::-webkit-scrollbar {
@@ -567,6 +602,7 @@
   box-shadow: 0 10px 30px rgba(0,0,0,0.05);
   display: flex;
   flex-direction: column;
+  scroll-snap-align: start;
 }
 
 .sp-stars {
@@ -689,12 +725,142 @@
   line-height: 1.7;
 }
 
-.sp-faq-item.active .sp-faq-answer {
+.sp-faq-item.active .sp-faq-answer,
+.sp-faq-item.open .sp-faq-answer {
   max-height: 500px;
 }
 
-.sp-faq-item.active .sp-faq-icon {
+.sp-faq-item.active .sp-faq-icon,
+.sp-faq-item.open .sp-faq-icon {
   transform: rotate(180deg);
+}
+
+/* Trust Banner Section */
+.sp-trust-section {
+  background-color: #FAF8F5;
+  padding: 60px 0;
+  border-top: 1px solid rgba(183, 154, 107, 0.15);
+  border-bottom: 1px solid rgba(183, 154, 107, 0.15);
+}
+
+.sp-trust-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.sp-trust-item {
+  background: #FFFFFF;
+  border: 1px solid rgba(36, 33, 30, 0.08);
+  border-radius: 20px;
+  padding: 36px 28px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sp-trust-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.08);
+}
+
+.sp-trust-icon {
+  color: #B79A6B;
+  margin-bottom: 18px;
+  flex-shrink: 0;
+}
+
+.sp-trust-item h4 {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  color: #24211E;
+  margin: 0 0 10px 0;
+  font-weight: 700;
+}
+
+.sp-trust-item p {
+  color: #6F6962;
+  font-size: 0.92rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+@media (max-width: 900px) {
+  .sp-trust-box {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .sp-trust-item {
+    padding: 28px 20px;
+  }
+}
+
+/* Reviews Grid (for 3-card grid layout) */
+.sp-reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.sp-reviews-grid .sp-review-card {
+  flex: none;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .sp-reviews-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 680px) {
+  .sp-reviews-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .sp-reviews-flex {
+    gap: 16px;
+    padding-bottom: 25px;
+  }
+
+  .sp-reviews-flex .sp-review-card {
+    flex: 0 0 290px;
+    padding: 28px 22px;
+  }
+}
+
+.sp-review-stars {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 18px;
+}
+
+.sp-review-author {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border-top: 1px solid rgba(36, 33, 30, 0.08);
+  padding-top: 18px;
+  margin-top: auto;
+}
+
+.sp-review-author strong {
+  color: #24211E;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.sp-review-author span {
+  color: #B79A6B;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 /* Gallery Section */

@@ -9,90 +9,90 @@ const Panels = () => {
   const services = [
     {
       id: "pvc-panel",
-      title: "PVC Wall & Ceiling Panels",
-      img: "/images/pvc-1.png",
-      desc: "100% waterproof PVC panels in high-gloss, matte, and wooden textures for rapid wall and ceiling cladding."
+      title: "PVC Wall & Ceiling Panels (Waterproof)",
+      img: "/images/qarat/pvc-panels/qarat-pvc-panel-wall-01.webp",
+      desc: "100% waterproof, termite-proof PVC tongue & groove panels in high-gloss, matte, and wooden textures for rapid wall and damp ceiling cladding."
     },
     {
       id: "wpc-panel",
       title: "WPC Louvers & Fluted Exterior/Interior Panels",
-      img: "/images/new-upload-1.jpg",
-      desc: "Heavy-duty Wood Plastic Composite louvers for luxury exterior elevation and moisture-proof interior feature walls."
-    },
-    {
-      id: "fluted-panel",
-      title: "Fluted Decorative Panels",
-      img: "/images/new-upload-3.jpg",
-      desc: "Modern architectural 3D ribbed panels in wood grain and solid tones. Ideal for luxury TV units and foyer backdrops."
+      img: "/images/qarat/wall-panels/qarat-wpc-fluted-wall-panel-07.webp",
+      desc: "Heavy-duty Wood Plastic Composite louvers for luxury exterior elevation cladding and moisture-proof interior feature walls."
     },
     {
       id: "charcoal-panels",
-      title: "Charcoal Louver Panels",
-      img: "/images/pvc-2.jpg",
-      desc: "High-density charcoal polymer panels offering scratch-resistant, termite-free luxury accents for bedrooms and offices."
+      title: "Charcoal Louver Panels & Acoustic Slats",
+      img: "/images/qarat/wall-panels/qarat-wpc-fluted-wall-panel-05.webp",
+      desc: "High-density charcoal polymer louvers offering scratch-resistant, termite-free luxury accents for bedrooms, TV backdrops, and executive offices."
+    },
+    {
+      id: "uv-marble-panels",
+      title: "UV Marble Sheets & PVC Marble Panels",
+      img: "/images/qarat/uv-marble/qarat-uv-marble-sheet-tv-wall-02.webp",
+      desc: "Seamless 8x4 ft high-gloss UV coated faux marble sheets and matching T-profile trims for luxury feature walls at a fraction of real marble cost."
     }
   ];
 
   const reviews = [
     {
-      name: "Rahul Verma",
-      location: "Lucknow",
-      text: "The interior execution was flawless. The design team listened to all our requirements and delivered a spectacular commercial office setup."
+      name: "Arunendra Dixit",
+      location: "Gomti Nagar Extension, Lucknow",
+      text: "Sourced charcoal fluted louvers and UV marble sheets from Qarat for our living room TV unit in Gomti Nagar. The interlocking joints are seamless, and the wood texture looks extraordinarily premium. Delivered on time directly from their Lucknow godown."
     },
     {
-      name: "Sneha Gupta",
-      location: "Kanpur",
-      text: "Amazing work! The team was highly professional, respected our space, and finished the project exactly on the promised timeline."
+      name: "Mohd Zeeshan",
+      location: "Hazratganj, Lucknow",
+      text: "We regularly buy bulk PVC wall panels and exterior WPC louvers from Qarat for damp wall cladding projects in Hazratganj. 100% waterproof quality, zero warping, and best wholesale prices in UP."
     },
     {
-      name: "Amit Singh",
-      location: "Delhi",
-      text: "Top quality materials and installation. The finishing is top notch. Very happy with the final result and highly recommend them."
+      name: "Dr. Neha Mehrotra",
+      location: "Aliganj, Lucknow",
+      text: "Installed anti-bacterial PVC tongue-and-groove wall panels in our Aliganj clinic corridors. Completely eliminated our recurring dampness and flaking paint issues. Extremely easy to clean and sanitize."
     },
     {
-      name: "Priya Sharma",
-      location: "Noida",
-      text: "Beautiful execution and highly durable work. They completely transformed our living room into a luxurious space within a week."
+      name: "Er. Ritesh Srivastava",
+      location: "Indira Nagar, Lucknow",
+      text: "Specified Qarat's high-density WPC louvers and vertical LED profile strips for a residential villa in Indira Nagar. The color consistency and dimensional stability of their louvers are top notch."
     },
     {
-      name: "Vikram Reddy",
-      location: "Hyderabad",
-      text: "Superb craftsmanship and very transparent pricing. There were no hidden costs and the 3D designs matched the final outcome perfectly."
+      name: "Vikas Agarwal",
+      location: "Charbagh, Lucknow",
+      text: "Purchased heavy-duty fluted wall panels and PVC ceiling sections for our hotel banquet reception. Their wholesale rates beat the Delhi market, with immediate same-day delivery right here in Lucknow."
     }
   ];
 
   const faqs = [
     {
-      q: "Do you provide free estimates?",
-      a: "Yes, we provide free site visits and cost estimates for projects in Lucknow. Contact us via WhatsApp to schedule a visit."
+      q: "What is the difference between PVC panels and WPC louvers?",
+      a: "PVC panels are lightweight, 100% waterproof hollow tongue-and-groove sheets ideal for damp walls, bathrooms, and ceilings. WPC louvers are heavy-duty, dense wood-plastic composite architectural ribs offering authentic 3D wood texture for luxury feature walls and exterior elevations."
     },
     {
-      q: "Do you only supply materials, or do you install them too?",
-      a: "We offer both! We are a leading material supplier for contractors, but we also have an in-house execution team for end-to-end installation."
+      q: "Can PVC and WPC panels permanently solve wall seepage and dampness (seelan)?",
+      a: "Yes! Unlike paint or wallpaper which peels when exposed to moisture, PVC and WPC panels are 100% moisture-proof and termite-resistant. Installed over an aluminum or GI sub-frame, they form a permanent barrier against damp walls."
     },
     {
-      q: "Which areas do you serve?",
-      a: "We primarily serve Lucknow and surrounding regions for installation, but we can supply materials in bulk across India."
+      q: "What are the wholesale prices for PVC and WPC wall panels in Lucknow?",
+      a: "Standard PVC panels range between ₹25 to ₹45 per sq ft (or ₹150–₹350 per plank), while premium WPC/Charcoal fluted louvers range between ₹450 to ₹950 per panel (8x5 inch to 9.5x6 inch profiles). Contact us for bulk volume trade rates."
     },
     {
-      q: "How long does a typical interior project take?",
-      a: "It depends on the scope. A single room ceiling or wall paneling can take 2-4 days, while a full home interior may take 3-6 weeks."
+      q: "Can WPC louvers be used for exterior building elevations?",
+      a: "Yes, our exterior-grade WPC louvers are UV-stabilized, weather-resistant, and heat-proof, designed to withstand intense Lucknow summers and monsoons without fading or cracking."
     },
     {
-      q: "Do you provide 3D designs before starting the work?",
-      a: "Yes, we offer complete 3D visualization and rendering services so you can see exactly how your space will look before execution begins."
+      q: "Do you supply matching corner trims, L-angles, and profile lights?",
+      a: "Yes, we supply the complete installation ecosystem including matching PVC end-caps, inner/outer corner L-profiles, aluminum LED profile channels, silicon adhesives, and starter clips."
     },
     {
-      q: "What types of materials do you use for modular kitchens?",
-      a: "We use only premium, branded materials. For modular kitchens we use Hettich/Blum hardware, and for ceilings we use genuine Gyproc or USG Boral boards."
+      q: "Do you offer same-day dispatch and delivery in Lucknow?",
+      a: "Yes. We have ready stock at our Lucknow godown and arrange same-day tempo dispatch to Gomti Nagar, Hazratganj, Aliganj, Indira Nagar, Shaheed Path, Transport Nagar, and all surrounding areas."
     },
     {
-      q: "Is there a warranty on your interior work?",
-      a: "Yes! All our installations come with a standard 1-year service warranty, and the materials carry their respective manufacturer warranties (up to 10 years)."
+      q: "Are charcoal louvers fire-retardant and scratch-resistant?",
+      a: "Yes, our high-density charcoal polymer panels come with an anti-scratch protective coating, are borer/termite-proof, and have Class B fire-retardant certification suitable for commercial fit-outs."
     },
     {
-      q: "Can you work within a specific budget?",
-      a: "Absolutely. We offer a range of material finishes from cost-effective PVC panels to ultra-luxury UV marble sheets to accommodate various budgets."
+      q: "Do you supply only materials or also provide installation service?",
+      a: "We are direct wholesale distributors for contractors and architects, but we also provide experienced in-house installation craftsmen for turnkey wall paneling across Lucknow."
     }
   ];
 
@@ -108,7 +108,7 @@ const Panels = () => {
   return (
     <div className="service-page">
                   {/* 2. Hero Section */}
-      <section className="sp-hero" style={{ backgroundImage: `url(/images/pvc-wall.png)` }}>
+      <section className="sp-hero" style={{ backgroundImage: `url(/images/qarat/wall-panels/qarat-wpc-fluted-wall-panel-01.webp)` }}>
         <div className="sp-hero-overlay"></div>
         <div className="sp-container sp-hero-container">
           <div className="sp-hero-content">
@@ -205,8 +205,8 @@ const Panels = () => {
           </div>
           
           <div className="sp-about-images">
-            <img src="/images/new-upload-1.jpg" alt="WPC Louvers" className="sp-main-img" />
-            <img src="/images/pvc-wall.png" alt="PVC Wall Paneling" className="sp-circle-img" />
+            <img src="/images/qarat/wall-panels/qarat-wpc-fluted-wall-panel-03.webp" alt="Luxury WPC Fluted Wall Louvers Installation" className="sp-main-img" />
+            <img src="/images/qarat/pvc-panels/qarat-pvc-panel-wall-01.webp" alt="Dual-Tone PVC Wall Cladding Detail" className="sp-circle-img" />
           </div>
 
         </div>
@@ -218,10 +218,10 @@ const Panels = () => {
       {/* 5. Customer Reviews */}
       <section className="sp-reviews-section">
         <div className="sp-container">
-          <div className="sp-section-header">
+          <div className="sp-section-header sp-center">
             <span className="sp-section-eyebrow">CLIENT REVIEWS</span>
             <h2>What Our Clients Say</h2>
-            <p className="sp-section-subtitle">Real experiences from spaces we have transformed across the country.</p>
+            <p className="sp-section-subtitle">Verified feedback from homeowners, contractors, and architects sourcing PVC, WPC, and charcoal wall panels from Qarat in Lucknow.</p>
           </div>
           
           <div className="sp-reviews-flex">

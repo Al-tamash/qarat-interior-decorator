@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { ChevronDown, Menu, X, Phone, MessageCircle } from 'lucide-react';
+import QaratLogo from './QaratLogo';
 import './Header.css';
 
 const Header = () => {
@@ -36,9 +37,8 @@ const Header = () => {
     <>
       <header className={headerClass}>
         <div className="header-content">
-          <Link to="/" className="header-logo" onClick={closeMobileMenu}>
-            <span className="logo-title">QARAT</span>
-            <span className="subtitle">Interior Decorator</span>
+          <Link to="/" className="header-logo" onClick={closeMobileMenu} aria-label="Qarat Interior Decorator Home">
+            <QaratLogo size="default" />
           </Link>
 
           {/* Desktop Navigation */}
@@ -85,9 +85,14 @@ const Header = () => {
       {/* Mobile Navigation Panel */}
       <div className={`mobile-nav-overlay ${mobileOpen ? 'open' : ''}`} onClick={closeMobileMenu}></div>
       <div className={`mobile-nav-panel ${mobileOpen ? 'open' : ''}`}>
-        <button className="mobile-close-btn" onClick={closeMobileMenu}>
-          <X size={24} />
-        </button>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '24px' }}>
+          <Link to="/" onClick={closeMobileMenu} style={{ textDecoration: 'none', color: '#24211E' }}>
+            <QaratLogo size="sm" />
+          </Link>
+          <button className="mobile-close-btn" onClick={closeMobileMenu} style={{ float: 'none', margin: 0, padding: '4px' }}>
+            <X size={24} />
+          </button>
+        </div>
         
         <div className="mobile-nav-links">
           <Link to="/" className="mobile-nav-link" onClick={closeMobileMenu}>Home</Link>

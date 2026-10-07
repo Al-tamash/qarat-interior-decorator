@@ -13,8 +13,8 @@ const WhyQarat = () => {
           <div className="why-left-col">
             <div className="why-img-arch-wrapper">
               <img 
-                src="/images/why-qarat-new.jpg" 
-                alt="Clean architectural interior executed by Qarat" 
+                src="/images/qarat/residential/qarat-residential-turnkey-bedroom-02.webp" 
+                alt="Clean architectural turnkey interior executed by Qarat in Lucknow" 
                 className="why-img-arch" 
               />
               

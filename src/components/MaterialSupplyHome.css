@@ -112,36 +112,45 @@
 
 @media (min-width: 768px) {
   .mhs-right-col {
-    flex-direction: row;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    /* Hide scrollbar for a clean look */
-    scrollbar-width: none; 
-    -ms-overflow-style: none;
-    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    overflow-x: visible;
+    padding-bottom: 0;
+    gap: 20px;
   }
-  .mhs-right-col::-webkit-scrollbar {
-    display: none;
+  
+  .mhs-card {
+    height: 280px;
+    width: 100%;
+    flex: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .mhs-right-col {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+
+  .mhs-card {
+    height: 450px;
   }
 }
 
 .mhs-card {
   position: relative;
-  flex: 0 0 280px; /* Fixed width for mobile horizontal scroll */
   border-radius: 20px;
   overflow: hidden;
   text-decoration: none;
-  height: 400px;
   background-color: #24211E;
   transform: translateZ(0);
-  scroll-snap-align: start;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 767px) {
   .mhs-card {
-    height: 500px;
-    flex: 1 0 auto;
-    width: calc(33.333% - 14px); /* For 3 cards with 20px gaps */
+    flex: 0 0 280px;
+    height: 380px;
+    scroll-snap-align: start;
   }
 }
 

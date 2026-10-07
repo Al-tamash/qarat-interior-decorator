@@ -75,7 +75,7 @@ const MaterialSupply = () => {
             
             <Link to="/material-supply/gypsum-boards-ceiling-materials" className="cat-card">
               <div className="cat-img-wrapper">
-                <img src="/images/india-gypsum-stack.png" alt="Gypsum Boards and Drywall Systems" className="cat-img" />
+                <img src="/images/qarat/materials/qarat-india-gypsum-board-stock-01.webp" alt="Gypsum Boards and Drywall Systems" className="cat-img" />
               </div>
               <div className="cat-content">
                 <h3 className="cat-title">Gypsum Boards &amp; Plaster</h3>
@@ -91,7 +91,7 @@ const MaterialSupply = () => {
 
             <Link to="/material-supply/framing-hardware" className="cat-card">
               <div className="cat-img-wrapper">
-                <img src="/images/metal-channels.jpg" alt="False Ceiling Framing and Hardware" className="cat-img" />
+                <img src="/images/qarat/materials/qarat-gi-channel-ceiling-framing-04.webp" alt="False Ceiling Framing and Hardware" className="cat-img" />
               </div>
               <div className="cat-content">
                 <h3 className="cat-title">Ceiling Framing &amp; Hardware</h3>
@@ -107,7 +107,7 @@ const MaterialSupply = () => {
 
             <Link to="/material-supply/panels" className="cat-card">
               <div className="cat-img-wrapper">
-                <img src="/images/new-upload-1.jpg" alt="PVC and WPC Panels" className="cat-img" />
+                <img src="/images/qarat/wall-panels/qarat-wpc-fluted-wall-panel-03.webp" alt="PVC and WPC Panels" className="cat-img" />
               </div>
               <div className="cat-content">
                 <h3 className="cat-title">Wall &amp; Ceiling Panels</h3>
@@ -123,7 +123,7 @@ const MaterialSupply = () => {
 
             <Link to="/material-supply/decorative-materials" className="cat-card">
               <div className="cat-img-wrapper">
-                <img src="/images/marble-wall-1.jpg" alt="UV Marble Sheets and Designer Wallpapers" className="cat-img" />
+                <img src="/images/qarat/uv-marble/qarat-uv-marble-sheet-tv-wall-02.webp" alt="UV Marble Sheets and Designer Wallpapers" className="cat-img" />
               </div>
               <div className="cat-content">
                 <h3 className="cat-title">Decorative Surfaces &amp; Sheets</h3>

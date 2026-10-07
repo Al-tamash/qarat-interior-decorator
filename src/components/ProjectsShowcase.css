@@ -51,17 +51,18 @@
   flex: 0 0 280px;
   scroll-snap-align: start;
   position: relative;
-  border-radius: 8px;
+  border-radius: 12px;
   overflow: hidden;
   display: block;
   text-decoration: none;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
   height: 300px;
 }
 
 .ps-card:hover {
   transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.16);
 }
 
 .ps-img {

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Phone, MessageCircle } from 'lucide-react';
+import QaratLogo from './QaratLogo';
 import './Footer.css';
 
 const Footer = () => {
@@ -21,8 +22,9 @@ const Footer = () => {
             
             {/* Brand Column */}
             <div className="footer-col brand-col">
-              <h2 className="footer-brand">QARAT</h2>
-              <h3 className="footer-brand-subtitle">Interior Decorator</h3>
+              <Link to="/" onClick={scrollToTop} style={{ textDecoration: 'none', color: '#FFFFFF', display: 'inline-block', marginBottom: '20px' }} aria-label="Qarat Interior Decorator Home">
+                <QaratLogo size="lg" />
+              </Link>
               <p className="footer-brand-desc">
                 Interior work and material supply solutions for homes, offices and commercial spaces in Lucknow.
               </p>

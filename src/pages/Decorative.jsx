@@ -10,13 +10,13 @@ const Decorative = () => {
     {
       id: "uv-marble",
       title: "UV Marble Sheets (8x4 ft)",
-      img: "/images/marble-wall-1.jpg",
+      img: "/images/qarat/uv-marble/qarat-uv-marble-sheet-tv-wall-02.webp",
       desc: "High-gloss 3mm UV coated sheets mimicking luxury Italian marble like Statuario, Nero Marquina, and Golden Calacatta. 100% waterproof, fire-retardant, and seamless for TV units, lobby walls, and vanity backdrops."
     },
     {
       id: "wallpaper",
       title: "Designer Wallpaper Rolls",
-      img: "/images/floral-wallpaper.png",
+      img: "/images/qarat/wallpapers/qarat-designer-wallpaper-interior-03.webp",
       desc: "Imported non-woven and heavy vinyl wallpapers featuring 3D architectural textures, botanical motifs, and metallic damask finishes for living rooms, bedrooms, and commercial spaces."
     }
   ];

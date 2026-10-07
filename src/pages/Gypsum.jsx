@@ -10,89 +10,89 @@ const Gypsum = () => {
     {
       id: "gyproc-boards",
       title: "Saint-Gobain Gyproc Plasterboards",
-      img: "/images/gyproc-stack.png",
+      img: "/images/qarat/materials/qarat-gyproc-saint-gobain-material-02.webp",
       desc: "Authorized wholesale supply of genuine Gyproc 12.5mm regular, moisture-resistant (MR), and firestop plasterboards for false ceilings and drywall partitions."
     },
     {
       id: "india-gypsum",
       title: "India Gypsum Plasterboards (Authorized Dealer)",
-      img: "/images/india-gypsum-stack.png",
+      img: "/images/qarat/materials/qarat-india-gypsum-board-stock-01.webp",
       desc: "ISI-certified India Gypsum regular, fire-rated, and moisture-resistant boards. Reliable, cost-effective, and available in ready bulk stock for Lucknow contractors."
     },
     {
       id: "usg-knauf",
       title: "USG Knauf Drywall & Ceiling Systems",
-      img: "/images/gypsum-usg.jpg",
-      desc: "High-performance USG Knauf plasterboards and acoustic drywall partition systems engineered for corporate offices, hospitals, and institutional acoustics."
+      img: "/images/qarat/materials/qarat-usg-knauf-drywall-systems-03.webp",
+      desc: "High-performance USG Knauf 12.5mm plasterboards and acoustic drywall partition systems engineered for corporate offices, hospitals, and commercial fit-outs."
     },
     {
       id: "jointing-compounds",
-      title: "Gypsum Jointing Compounds & Plaster",
-      img: "/images/gypsum-ceiling-new.jpg",
-      desc: "Premium Gyproc Elite-90, Knauf jointing powder, fiberglass self-adhesive joint tape, paper tape, and gypsum plaster for crack-free seamless joints."
+      title: "Gypsum Jointing Compounds & POP/Plaster",
+      img: "/images/qarat/materials/qarat-sakarni-pop-gypsum-plaster-01.webp",
+      desc: "Premium Sakarni POP gypsum plaster, Gyproc Elite-90, Knauf jointing powder, fiberglass self-adhesive joint tape, and paper tape for crack-free seamless finishing."
     }
   ];
 
   const reviews = [
     {
-      name: "Rahul Verma",
-      location: "Lucknow",
-      text: "The interior execution was flawless. The design team listened to all our requirements and delivered a spectacular commercial office setup."
+      name: "Er. Ashish Tandon",
+      location: "Gomti Nagar Extension, Lucknow",
+      text: "We regularly source genuine Saint-Gobain Gyproc 12.5mm boards and Gypframe channels from Qarat for our residential projects across Gomti Nagar. Best wholesale rates in Lucknow, zero transit damage, and prompt same-day tempo delivery from their godown."
     },
     {
-      name: "Sneha Gupta",
-      location: "Kanpur",
-      text: "Amazing work! The team was highly professional, respected our space, and finished the project exactly on the promised timeline."
+      name: "Mohd Fahad",
+      location: "Hazratganj, Lucknow",
+      text: "For high-volume gypsum ceiling projects in Hazratganj and commercial sites, Qarat is our go-to distributor. Ready stock of India Gypsum ISI boards, original Sakarni POP, and GI perimeter channels always available at distributor pricing."
     },
     {
-      name: "Amit Singh",
-      location: "Delhi",
-      text: "Top quality materials and installation. The finishing is top notch. Very happy with the final result and highly recommend them."
+      name: "Sanjay Mehrotra",
+      location: "Vibhuti Khand, Gomti Nagar",
+      text: "Ordered bulk USG Knauf acoustic drywall systems and Knauf T-Grid sections for our corporate office fit-out in Vibhuti Khand. Every bundle was factory sealed with authentic batch codes. Outstanding logistical support."
     },
     {
-      name: "Priya Sharma",
-      location: "Noida",
-      text: "Beautiful execution and highly durable work. They completely transformed our living room into a luxurious space within a week."
+      name: "Dr. R. K. Srivastava",
+      location: "Aliganj, Lucknow",
+      text: "Purchased genuine Gyproc moisture-resistant plasterboards and Sakarni plaster for our house renovation in Aliganj. Their team provided honest guidance on sheet counts and delivered directly to our doorstep at honest wholesale prices."
     },
     {
-      name: "Vikram Reddy",
-      location: "Hyderabad",
-      text: "Superb craftsmanship and very transparent pricing. There were no hidden costs and the 3D designs matched the final outcome perfectly."
+      name: "Deepak Awasthi",
+      location: "Indira Nagar, Lucknow",
+      text: "Finding genuine Saint-Gobain plasterboards and heavy gauge GI channels at honest rates used to be difficult in Lucknow. Qarat maintains ready stock in Indira Nagar and their material quality is 100% authentic."
     }
   ];
 
   const faqs = [
     {
-      q: "Do you provide free estimates?",
-      a: "Yes, we provide free site visits and cost estimates for projects in Lucknow. Contact us via WhatsApp to schedule a visit."
+      q: "Which brands of gypsum plasterboards do you stock in Lucknow?",
+      a: "We maintain ready bulk warehouse inventory of Saint-Gobain Gyproc (Regular, Moisture Resistant MR, and Firestop FR), India Gypsum ISI-marked boards, and USG Knauf high-performance drywall systems in standard 6x4 ft and 12.5mm / 9.5mm thickness."
     },
     {
-      q: "Do you only supply materials, or do you install them too?",
-      a: "We offer both! We are a leading material supplier for contractors, but we also have an in-house execution team for end-to-end installation."
+      q: "What are the wholesale prices for Gyproc and India Gypsum boards in Lucknow?",
+      a: "India Gypsum regular plasterboards generally range between ₹340 to ₹420 per sheet, while genuine Saint-Gobain Gyproc boards range between ₹450 to ₹550 per sheet depending on grade (Regular vs MR) and order volume. Contact us on WhatsApp for exact current daily wholesale rate sheets."
     },
     {
-      q: "Which areas do you serve?",
-      a: "We primarily serve Lucknow and surrounding regions for installation, but we can supply materials in bulk across India."
+      q: "Do you offer same-day site delivery across Lucknow?",
+      a: "Yes. We arrange prompt same-day or scheduled tempo delivery across all Lucknow localities including Gomti Nagar, Hazratganj, Aliganj, Indira Nagar, Shaheed Path, Ashiyana, and Transport Nagar directly from our local godowns."
     },
     {
-      q: "How long does a typical interior project take?",
-      a: "It depends on the scope. A single room ceiling or wall paneling can take 2-4 days, while a full home interior may take 3-6 weeks."
+      q: "How can I verify that the Saint-Gobain Gyproc boards are genuine?",
+      a: "All our Saint-Gobain Gyproc plasterboards feature original branded side-tapes, laser-printed manufacturing batch codes along the edge, and genuine Gyproc Saint-Gobain watermarks. We provide authentic tax invoices with every dispatch."
     },
     {
-      q: "Do you provide 3D designs before starting the work?",
-      a: "Yes, we offer complete 3D visualization and rendering services so you can see exactly how your space will look before execution begins."
+      q: "What is the difference between regular Gypsum board and Moisture Resistant (MR) board?",
+      a: "Regular gypsum boards (ivory face paper) are ideal for standard living rooms and bedrooms. Moisture Resistant (MR) boards (green face paper) contain silicone additives in the core and water-repellent liners, making them essential for false ceilings in kitchens, bathrooms, and seepage-prone areas."
     },
     {
-      q: "What types of materials do you use for modular kitchens?",
-      a: "We use only premium, branded materials. For modular kitchens we use Hettich/Blum hardware, and for ceilings we use genuine Gyproc or USG Boral boards."
+      q: "Do you supply complete GI framing channels, screws, and accessories as well?",
+      a: "Yes. Along with gypsum boards, we provide the complete framing and finishing ecosystem: heavy-gauge intermediate channels, ceiling sections, perimeter channels, L-angles, rawl plugs, drywall bugle-head screws, fiberglass self-adhesive joint tape, paper tape, and Sakarni POP/Gyproc Elite-90 jointing compound."
     },
     {
-      q: "Is there a warranty on your interior work?",
-      a: "Yes! All our installations come with a standard 1-year service warranty, and the materials carry their respective manufacturer warranties (up to 10 years)."
+      q: "Can contractors, architects, and builders purchase in bulk with GST invoicing?",
+      a: "Absolutely. We cater directly to interior contractors, builders, and corporate clients with official GST invoices for input tax credit (ITC) and offer tiered wholesale slab discounts for bulk quantities."
     },
     {
-      q: "Can you work within a specific budget?",
-      a: "Absolutely. We offer a range of material finishes from cost-effective PVC panels to ultra-luxury UV marble sheets to accommodate various budgets."
+      q: "Do you only supply materials, or do you also provide ceiling installation services?",
+      a: "While our primary division is direct wholesale material supply, we also have an experienced in-house contracting team and an extensive network of verified, skilled false ceiling fabricators across Lucknow for complete turnkey execution."
     }
   ];
 
@@ -108,7 +108,7 @@ const Gypsum = () => {
   return (
     <div className="service-page">
                   {/* 2. Hero Section */}
-      <section className="sp-hero" style={{ backgroundImage: `url(/images/india-gypsum-stack.png)` }}>
+      <section className="sp-hero" style={{ backgroundImage: `url(/images/qarat/materials/qarat-india-gypsum-board-stock-01.webp)` }}>
         <div className="sp-hero-overlay"></div>
         <div className="sp-container sp-hero-container">
           <div className="sp-hero-content">
@@ -205,8 +205,8 @@ const Gypsum = () => {
           </div>
           
           <div className="sp-about-images">
-            <img src="/images/gypsum-gyproc.png" alt="Gyproc Plasterboard Inventory" className="sp-main-img" />
-            <img src="/images/india-gypsum-stack.png" alt="Warehouse Stock" className="sp-circle-img" />
+            <img src="/images/qarat/materials/qarat-india-gypsum-board-stock-01.webp" alt="India Gypsum Warehouse Stock Lucknow" className="sp-main-img" />
+            <img src="/images/qarat/materials/qarat-gyproc-saint-gobain-material-02.webp" alt="Saint-Gobain Gyproc 12.5mm Plasterboard Stack" className="sp-circle-img" />
           </div>
 
         </div>
@@ -218,10 +218,10 @@ const Gypsum = () => {
       {/* 5. Customer Reviews */}
       <section className="sp-reviews-section">
         <div className="sp-container">
-          <div className="sp-section-header">
+          <div className="sp-section-header sp-center">
             <span className="sp-section-eyebrow">CLIENT REVIEWS</span>
             <h2>What Our Clients Say</h2>
-            <p className="sp-section-subtitle">Real experiences from spaces we have transformed across the country.</p>
+            <p className="sp-section-subtitle">Verified feedback from contractors, builders, and homeowners sourcing gypsum boards and ceiling materials from Qarat in Lucknow.</p>
           </div>
           
           <div className="sp-reviews-flex">

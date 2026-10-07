@@ -1,3 +1,4 @@
+import { lazy, Suspense } from 'react';
 import { BrowserRouter, Routes, Route, Outlet } from 'react-router-dom';
 import './index.css';
 
@@ -6,29 +7,51 @@ import Footer from './components/Footer';
 import WhatsAppWidget from './components/WhatsAppWidget';
 import ScrollToTop from './components/ScrollToTop';
 
-// Pages
-import Home from './pages/Home';
-import InteriorWork from './pages/InteriorWork';
-import CeilingWork from './pages/CeilingWork';
-import WallWork from './pages/WallWork';
-import KitchenWork from './pages/KitchenWork';
-import CommercialTurnkey from './pages/CommercialTurnkey';
+// Lazy-loaded Pages for code-splitting
+const Home = lazy(() => import('./pages/Home'));
+const InteriorWork = lazy(() => import('./pages/InteriorWork'));
+const CeilingWork = lazy(() => import('./pages/CeilingWork'));
+const WallWork = lazy(() => import('./pages/WallWork'));
+const KitchenWork = lazy(() => import('./pages/KitchenWork'));
+const CommercialTurnkey = lazy(() => import('./pages/CommercialTurnkey'));
 
-import MaterialSupply from './pages/MaterialSupply';
-import Gypsum from './pages/Gypsum';
-import FramingHardware from './pages/FramingHardware';
-import Panels from './pages/Panels';
-import Decorative from './pages/Decorative';
+const MaterialSupply = lazy(() => import('./pages/MaterialSupply'));
+const Gypsum = lazy(() => import('./pages/Gypsum'));
+const FramingHardware = lazy(() => import('./pages/FramingHardware'));
+const Panels = lazy(() => import('./pages/Panels'));
+const Decorative = lazy(() => import('./pages/Decorative'));
 
-import Projects from './pages/Projects';
-import About from './pages/About';
-import GetQuote from './pages/GetQuote';
+const Projects = lazy(() => import('./pages/Projects'));
+const About = lazy(() => import('./pages/About'));
+const GetQuote = lazy(() => import('./pages/GetQuote'));
+
+const PageLoader = () => (
+  <div style={{ minHeight: '60vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+    <div
+      style={{
+        width: '36px',
+        height: '36px',
+        border: '3px solid rgba(183, 154, 107, 0.2)',
+        borderTopColor: 'var(--accent-primary, #B79A6B)',
+        borderRadius: '50%',
+        animation: 'spin 0.8s linear infinite',
+      }}
+    />
+    <style>{`
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    `}</style>
+  </div>
+);
 
 const Layout = () => (
   <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
     <Header />
     <main style={{ flex: 1 }}>
-      <Outlet />
+      <Suspense fallback={<PageLoader />}>
+        <Outlet />
+      </Suspense>
     </main>
     <Footer />
     <WhatsAppWidget />

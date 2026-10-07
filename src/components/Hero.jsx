@@ -16,40 +16,40 @@ const Hero = () => {
       </div>
 
       <div className="hero-carousel-3d">
-        <div className="hero-card card-far-left">
-          <img src="/images/kitchen-hero-new.png" alt="Premium Kitchen" />
+        <Link to="/interior-work/wall-decorative-work" className="hero-card card-far-left">
+          <img src="/images/qarat/wall-panels/qarat-wpc-fluted-wall-panel-03.webp" alt="Decorative WPC Wall Panels" />
           <div className="card-overlay">
-            <h3>Premium Kitchen</h3>
+            <h3>Wall Panels</h3>
           </div>
-        </div>
+        </Link>
 
-        <div className="hero-card card-mid-left">
-          <img src="/images/kitchen-4.png" alt="Modular Kitchen" />
+        <Link to="/interior-work/modular-kitchen-furniture" className="hero-card card-mid-left">
+          <img src="/images/qarat/kitchen/qarat-modular-kitchen-cabinetry-01.webp" alt="Modular Kitchen" />
           <div className="card-overlay">
             <h3>Modular Kitchen</h3>
           </div>
-        </div>
+        </Link>
 
-        <div className="hero-card card-center">
-          <img src="/images/ceiling-5.png" alt="False Ceiling" />
+        <Link to="/interior-work/ceiling-work" className="hero-card card-center">
+          <img src="/images/qarat/ceiling/qarat-gypsum-false-ceiling-04.webp" alt="Designer False Ceiling" />
           <div className="card-overlay">
             <h3>False Ceiling</h3>
           </div>
-        </div>
+        </Link>
 
-        <div className="hero-card card-mid-right">
-          <img src="/images/ceiling-hero-new.png" alt="Living Room Ceiling" />
+        <Link to="/interior-work/wall-decorative-work" className="hero-card card-mid-right">
+          <img src="/images/qarat/uv-marble/qarat-uv-marble-sheet-tv-wall-02.webp" alt="UV Marble TV Unit" />
           <div className="card-overlay">
-            <h3>Living Room Ceiling</h3>
+            <h3>UV Marble Wall</h3>
           </div>
-        </div>
+        </Link>
 
-        <div className="hero-card card-far-right">
-          <img src="/images/uv-marble-supply-new.jpg" alt="Interior Decor" />
+        <Link to="/interior-work/commercial-turnkey-interiors" className="hero-card card-far-right">
+          <img src="/images/qarat/commercial/qarat-corporate-office-interior-01.webp" alt="Commercial Office Turnkey" />
           <div className="card-overlay">
-            <h3>Interior Decor</h3>
+            <h3>Commercial Turnkey</h3>
           </div>
-        </div>
+        </Link>
       </div>
     </section>
   );

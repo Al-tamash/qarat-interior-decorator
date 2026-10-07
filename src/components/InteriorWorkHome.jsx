@@ -8,15 +8,17 @@ const InteriorWorkHome = () => {
     <section className="interior-bento-section">
       <div className="ib-container">
         
-        <div className="ib-text-block">
-          <span className="ib-eyebrow">Our Interior Work</span>
-          <h2 className="ib-title">Interior Solutions Designed Around Your Space</h2>
-          <p className="ib-desc">
-            From ceilings and decorative walls to modular kitchen and furniture solutions, Qarat provides practical interior work for residential, office and commercial spaces.
-          </p>
-          <div className="ib-button-wrapper">
-            <Link to="/interior-work" className="ib-link-text">
-              Explore Interior Work <ArrowRight size={18} />
+        <div className="ib-header-row">
+          <div className="ib-header-left">
+            <span className="ib-eyebrow">Our Interior Work</span>
+            <h2 className="ib-title">Interior Solutions Designed Around Your Space</h2>
+          </div>
+          <div className="ib-header-right">
+            <p className="ib-desc">
+              From ceilings and decorative walls to modular kitchen and furniture solutions, Qarat provides practical interior work for residential, office and commercial spaces in Lucknow.
+            </p>
+            <Link to="/interior-work" className="ib-link-btn">
+              Explore All Interior Work <ArrowRight size={18} />
             </Link>
           </div>
         </div>
@@ -24,7 +26,7 @@ const InteriorWorkHome = () => {
         <div className="ib-cards-wrapper">
           <Link to="/interior-work/ceiling-work" className="ib-card">
             <div className="ib-img-arch">
-              <img src="/images/interior-work-new.jpg" alt="Ceiling & Partition Work" />
+              <img src="/images/qarat/ceiling/qarat-gypsum-false-ceiling-04.webp" alt="Ceiling & Partition Work" />
             </div>
             <div className="ib-card-content">
               <h3 className="ib-card-title">Ceiling &amp; Partition</h3>
@@ -34,7 +36,7 @@ const InteriorWorkHome = () => {
 
           <Link to="/interior-work/wall-decorative-work" className="ib-card">
             <div className="ib-img-arch">
-              <img src="/images/new-upload-2.jpg" alt="Wall & Decorative Work" />
+              <img src="/images/qarat/uv-marble/qarat-uv-marble-sheet-tv-wall-01.webp" alt="Wall & Decorative Work" />
             </div>
             <div className="ib-card-content">
               <h3 className="ib-card-title">Wall &amp; Decorative</h3>
@@ -44,7 +46,7 @@ const InteriorWorkHome = () => {
 
           <Link to="/interior-work/modular-kitchen-furniture" className="ib-card">
             <div className="ib-img-arch">
-              <img src="/images/kitchen-4.png" alt="Modular Kitchen & Furniture" />
+              <img src="/images/qarat/kitchen/qarat-modular-kitchen-cabinetry-01.webp" alt="Modular Kitchen & Furniture" />
             </div>
             <div className="ib-card-content">
               <h3 className="ib-card-title">Modular Kitchens</h3>
@@ -54,7 +56,7 @@ const InteriorWorkHome = () => {
 
           <Link to="/interior-work/commercial-turnkey-interiors" className="ib-card">
             <div className="ib-img-arch">
-              <img src="/images/ceiling-hero-new.png" alt="Commercial & Turnkey" />
+              <img src="/images/qarat/commercial/qarat-corporate-office-interior-01.webp" alt="Commercial & Turnkey" />
             </div>
             <div className="ib-card-content">
               <h3 className="ib-card-title">Commercial &amp; Turnkey</h3>

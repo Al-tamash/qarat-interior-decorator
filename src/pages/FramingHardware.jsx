@@ -10,25 +10,25 @@ const FramingHardware = () => {
     {
       id: "gi-channels",
       title: "GI Ceiling & Perimeter Channels",
-      img: "/images/metal-channels.jpg",
+      img: "/images/qarat/materials/qarat-gi-channel-ceiling-framing-04.webp",
       desc: "Rust-proof galvanized iron ceiling sections, intermediate channels, perimeter channels, and wall angles in 0.45mm and heavy-duty 0.50mm gauge."
     },
     {
       id: "drywall-studs",
       title: "Drywall Partition Studs & Tracks",
-      img: "/images/gypsum-partition.png",
+      img: "/images/qarat/materials/qarat-usg-knauf-drywall-systems-03.webp",
       desc: "Galvanized C-Studs, Floor & Ceiling Tracks, and Deflection Heads designed for sturdy, sound-insulated gypsum partition wall framing."
     },
     {
       id: "t-grid-system",
       title: "2x2 Modular T-Grid Suspension & Tiles",
-      img: "/images/gyproc-tile.jpg",
+      img: "/images/qarat/materials/qarat-usg-knauf-drywall-systems-01.webp",
       desc: "Main runners, cross tees (4ft & 2ft), wall angles, and PVC laminated washable ceiling tiles for corporate office modular drop ceilings."
     },
     {
       id: "screws-fasteners",
       title: "Drywall Screws, Fasteners & Murga Jali",
-      img: "/images/gypsum-tiles-stack.png",
+      img: "/images/qarat/materials/qarat-gi-channel-ceiling-framing-02.webp",
       desc: "Zinc-coated and black phosphated bugle-head drywall screws (25mm, 35mm, 50mm), expansion anchors, fasteners, and heavy-gauge wire mesh (Murga Jali)."
     }
   ];
@@ -78,7 +78,7 @@ const FramingHardware = () => {
   return (
     <div className="service-page">
       {/* Hero Section */}
-      <section className="sp-hero" style={{ backgroundImage: `url(/images/metal-channels.jpg)` }}>
+      <section className="sp-hero" style={{ backgroundImage: `url(/images/qarat/materials/qarat-gi-channel-ceiling-framing-01.webp)` }}>
         <div className="sp-hero-overlay"></div>
         <div className="sp-container sp-hero-container">
           <div className="sp-hero-content">
@@ -175,7 +175,7 @@ const FramingHardware = () => {
       </section>
 
       {/* Project Gallery */}
-      <ProjectGallery category="gypsum" />
+      <ProjectGallery category="framing" />
 
       {/* Client Reviews */}
       <section className="sp-section sp-reviews-section">

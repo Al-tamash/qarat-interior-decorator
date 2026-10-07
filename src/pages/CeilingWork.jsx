@@ -6,36 +6,30 @@ import ProjectGallery from '../components/ProjectGallery';
 import FinalCTA from '../components/FinalCTA';
 
 const CeilingWork = () => {
-  // Service Data with exact Contractor titles
+  // Service Data with exact False Ceiling Contractor titles (4 True Ceiling Services)
   const services = [
     {
       id: "gypsum-false-ceiling",
       title: "Gypsum False Ceiling Contractor",
-      img: "/images/gypsum-ceiling-new.jpg",
+      img: "/images/qarat/ceiling/qarat-gypsum-false-ceiling-04.webp",
       desc: "Turnkey designer false ceilings with cove LED lighting, stepped profiles, and flawless fire-resistant gypsum board finishing for living rooms and commercial spaces."
-    },
-    {
-      id: "gypsum-partition-wall",
-      title: "Gypsum Partition Wall Contractor",
-      img: "/images/gypsum-partition.png",
-      desc: "Fast, lightweight acoustic drywall partition walls for executive office cabins, hospital clinics, conference rooms, and commercial division."
     },
     {
       id: "pop-murga-jali",
       title: "POP Murga Jali False Ceiling Contractor",
-      img: "/images/ceiling-5.png",
+      img: "/images/qarat/ceiling/qarat-pop-murga-jali-ceiling-01.webp",
       desc: "Heavy-duty wire mesh (Murga Jali) and Plaster of Paris construction. Perfect for intricate ornamental cornices, domes, and lasting structural durability."
     },
     {
       id: "gypsum-grid-ceiling",
       title: "Gypsum 2x2 Grid False Ceiling Contractor",
-      img: "/images/gyproc-tile.jpg",
+      img: "/images/qarat/ceiling/qarat-gypsum-2x2-grid-ceiling-01.webp",
       desc: "Modular T-grid ceiling systems with PVC-laminated washable or acoustic tiles. Standard for corporate offices, IT setups, and institutional halls."
     },
     {
       id: "pvc-panel-ceiling",
       title: "PVC Panel Ceiling Contractor",
-      img: "/images/ceiling-1.png",
+      img: "/images/qarat/ceiling/qarat-pvc-panel-ceiling-01.webp",
       desc: "100% waterproof and termite-proof tongue-and-groove PVC panel ceiling cladding in luxury wood and matte textures. Ideal for damp zones, balconies, and kitchens."
     }
   ];
@@ -43,63 +37,53 @@ const CeilingWork = () => {
   const reviews = [
     {
       name: "Rahul Verma",
-      location: "Lucknow",
-      text: "The interior execution was flawless. The design team listened to all our requirements and delivered a spectacular commercial office setup."
+      location: "Gomti Nagar, Lucknow",
+      text: "Qarat did the gypsum false ceiling with warm cove LED lighting for our drawing room and lobby in Gomti Nagar. The laser level alignment was razor sharp and they completed the framing and putty finishing in just 4 days."
     },
     {
-      name: "Sneha Gupta",
-      location: "Kanpur",
-      text: "Amazing work! The team was highly professional, respected our space, and finished the project exactly on the promised timeline."
+      name: "Er. Amit Srivastava",
+      location: "Hazratganj, Lucknow",
+      text: "We hired them for a 2x2 modular grid ceiling across our corporate branch office in Hazratganj. Genuine Gyproc T-grid channels, neat light panel cutouts, and zero material wastage. Very professional contractor team."
     },
     {
-      name: "Amit Singh",
-      location: "Delhi",
-      text: "Top quality materials and installation. The finishing is top notch. Very happy with the final result and highly recommend them."
-    },
-    {
-      name: "Priya Sharma",
-      location: "Noida",
-      text: "Beautiful execution and highly durable work. They completely transformed our living room into a luxurious space within a week."
-    },
-    {
-      name: "Vikram Reddy",
-      location: "Hyderabad",
-      text: "Superb craftsmanship and very transparent pricing. There were no hidden costs and the 3D designs matched the final outcome perfectly."
+      name: "Dr. Alok Pandey",
+      location: "Aliganj, Lucknow",
+      text: "Got POP Murga Jali ceiling and bedroom tray ceilings done for our bungalow in Aliganj. The curved cornice finishing and concealed cove details came out exactly as planned with zero cracks or sagging."
     }
   ];
 
   const faqs = [
     {
-      q: "Do you provide free estimates?",
-      a: "Yes, we provide free site visits and cost estimates for projects in Lucknow. Contact us via WhatsApp to schedule a visit."
+      q: "Do you provide free site measurement and cost estimation in Lucknow?",
+      a: "Yes. Our ceiling supervisor visits your site in Gomti Nagar, Hazratganj, Aliganj, Indira Nagar, or any Lucknow area with laser measuring tools to evaluate room dimensions, ceiling heights, and lighting needs for a transparent quote."
     },
     {
-      q: "Do you only supply materials, or do you install them too?",
-      a: "We offer both! We are a leading material supplier for contractors, but we also have an in-house execution team for end-to-end installation."
+      q: "How do I choose between Gypsum, POP, and 2x2 Grid ceiling?",
+      a: "Gypsum false ceilings are ideal for modern homes with clean cove lighting and fast installation. POP Murga Jali is preferred for traditional ornate cornices and curved mouldings. 2x2 Grid ceilings are standard for offices and commercial setups requiring quick access to overhead AC and electrical ducts."
     },
     {
-      q: "Which areas do you serve?",
-      a: "We primarily serve Lucknow and surrounding regions for installation, but we can supply materials in bulk across India."
+      q: "What is the false ceiling installation cost per sq ft in Lucknow?",
+      a: "Gypsum false ceiling with genuine Gyproc boards typically ranges from ₹95 to ₹125 per sq ft. POP Murga Jali ceilings range from ₹110 to ₹145 per sq ft, while commercial 2x2 Grid ceilings cost between ₹75 to ₹110 per sq ft, covering metal channels, boards, and seamless joint finishing."
     },
     {
-      q: "How long does a typical interior project take?",
-      a: "It depends on the scope. A single room ceiling or wall paneling can take 2-4 days, while a full home interior may take 3-6 weeks."
+      q: "How long does false ceiling installation take for a room or home?",
+      a: "A standard bedroom or living room false ceiling is usually completed in 2 to 3 days. A full 3BHK flat installation across drawing room, dining, and bedrooms typically takes 6 to 9 days including metal framing, board fixing, and joint taping."
     },
     {
-      q: "Do you provide 3D designs before starting the work?",
-      a: "Yes, we offer complete 3D visualization and rendering services so you can see exactly how your space will look before execution begins."
+      q: "Do you provide 3D ceiling designs before starting execution?",
+      a: "Yes. We share 3D visualizations and cove lighting plans so you can preview the stepped trays, concealed LED strip positions, and spotlight placements before metal framing begins on site."
     },
     {
-      q: "What types of materials do you use for modular kitchens?",
-      a: "We use only premium, branded materials. For modular kitchens we use Hettich/Blum hardware, and for ceilings we use genuine Gyproc or USG Boral boards."
+      q: "Which false ceiling is best suited for Lucknow's humid weather?",
+      a: "For general living spaces, branded Gyproc or USG Knauf boards with fiber mesh jointing tape prevent seasonal hairline cracks. For damp areas like kitchens, washrooms, or exterior balconies in Lucknow, moisture-resistant (MR) gypsum or waterproof PVC ceiling panels are recommended."
     },
     {
-      q: "Is there a warranty on your interior work?",
-      a: "Yes! All our installations come with a standard 1-year service warranty, and the materials carry their respective manufacturer warranties (up to 10 years)."
+      q: "Is there a warranty on your false ceiling work?",
+      a: "Yes. Qarat provides a 1-year service warranty against sagging, joint cracks, and alignment issues, alongside manufacturer warranties on genuine galvanized GI channels and gypsum plasterboards."
     },
     {
-      q: "Can you work within a specific budget?",
-      a: "Absolutely. We offer a range of material finishes from cost-effective PVC panels to ultra-luxury UV marble sheets to accommodate various budgets."
+      q: "Do you also handle electrical wiring and LED cove light fittings?",
+      a: "Yes, our electrical technicians coordinate all concealed conduit wiring, driver installations, warm white/ambient LED strips, and magnetic track light or spotlight fittings alongside the false ceiling framing."
     }
   ];
 
@@ -115,7 +99,7 @@ const CeilingWork = () => {
   return (
     <div className="service-page">
                   {/* 2. Hero Section */}
-      <section className="sp-hero" style={{ backgroundImage: `url(/images/ceiling-hero-new.png)` }}>
+      <section className="sp-hero" style={{ backgroundImage: `url(/images/qarat/ceiling/qarat-false-ceiling-hero.webp)` }}>
         <div className="sp-hero-overlay"></div>
         <div className="sp-container sp-hero-container">
           <div className="sp-hero-content">
@@ -212,8 +196,8 @@ const CeilingWork = () => {
           </div>
           
           <div className="sp-about-images">
-            <img src="/images/ceiling-3.png" alt="Ceiling Work Execution" className="sp-main-img" />
-            <img src="/images/gypsum-ceiling-new.jpg" alt="Finished Ceiling Design" className="sp-circle-img" />
+            <img src="/images/qarat/ceiling/qarat-gypsum-false-ceiling-02.webp" alt="Ceiling Work Execution" className="sp-main-img" />
+            <img src="/images/qarat/ceiling/qarat-gypsum-false-ceiling-04.webp" alt="Stepped False Ceiling Cove Detail" className="sp-circle-img" />
           </div>
 
         </div>
@@ -225,13 +209,13 @@ const CeilingWork = () => {
       {/* 5. Customer Reviews */}
       <section className="sp-reviews-section">
         <div className="sp-container">
-          <div className="sp-section-header">
+          <div className="sp-section-header sp-center">
             <span className="sp-section-eyebrow">CLIENT REVIEWS</span>
             <h2>What Our Clients Say</h2>
-            <p className="sp-section-subtitle">Real experiences from spaces we have transformed across the country.</p>
+            <p className="sp-section-subtitle">Verified feedback from homeowners and businesses who got false ceilings installed by Qarat in Lucknow.</p>
           </div>
           
-          <div className="sp-reviews-flex">
+          <div className="sp-reviews-grid">
             {reviews.map((review, idx) => (
               <div key={idx} className="sp-review-card">
                 <div className="sp-stars">

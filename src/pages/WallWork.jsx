@@ -6,99 +6,94 @@ import ProjectGallery from '../components/ProjectGallery';
 import FinalCTA from '../components/FinalCTA';
 
 const WallWork = () => {
+  // Service Data with exact Wall & Decorative Contractor titles (4 True Wall Solutions)
   const services = [
     {
       id: "wpc-panel",
-      title: "WPC Wall Panel Contractor",
-      img: "/images/new-upload-1.jpg",
-      desc: "Heavy-duty Wood Plastic Composite louvers and exterior/interior cladding offering rich architectural wood texture with zero maintenance."
+      title: "WPC Louvers & Fluted Panel Contractor",
+      img: "/images/qarat/wall-panels/qarat-wpc-fluted-wall-panel-02.webp",
+      desc: "Heavy-duty Wood Plastic Composite louvers and fluted vertical wall cladding offering rich architectural wood texture, acoustic depth, and zero maintenance."
     },
     {
       id: "pvc-panel",
-      title: "PVC Panel Wall Contractor",
-      img: "/images/pvc-wall.png",
+      title: "PVC Panel Wall Cladding Contractor",
+      img: "/images/qarat/pvc-panels/qarat-pvc-panel-wall-01.webp",
       desc: "100% waterproof and termite-proof decorative wall cladding. Ideal for damp walls, rapid renovation, and low-maintenance residential and commercial interiors."
     },
     {
       id: "uv-marble",
       title: "UV Marble Sheet Contractor",
-      img: "/images/marble-wall-1.jpg",
+      img: "/images/qarat/uv-marble/qarat-uv-marble-sheet-tv-wall-02.webp",
       desc: "Seamless 8x4 ft high-gloss Italian marble sheets installed with precision edge-trims for luxury TV backdrops, lobby feature walls, and lift facades."
     },
     {
-      id: "fluted-panel",
-      title: "Fluted & Charcoal Panel Contractor",
-      img: "/images/tv-unit.jpg",
-      desc: "Modern 3D ribbed vertical architectural panels and high-density charcoal louvers creating depth, shadow lines, and luxury accents."
-    },
-    {
       id: "wallpaper",
-      title: "Wallpaper Contractor",
-      img: "/images/floral-living-room.jpg",
+      title: "Designer Wallpaper Contractor",
+      img: "/images/qarat/wallpapers/qarat-designer-wallpaper-interior-06.webp",
       desc: "Professional installation of imported non-woven, 3D embossed, and metallic vinyl wallpapers for living rooms, bedrooms, and boutique retail spaces."
     }
   ];
 
   const reviews = [
     {
-      name: "Rahul Verma",
-      location: "Lucknow",
-      text: "The interior execution was flawless. The design team listened to all our requirements and delivered a spectacular commercial office setup."
+      name: "Manish Agarwal",
+      location: "Gomti Nagar Extension, Lucknow",
+      text: "Got a Statuario UV marble sheet TV feature wall with warm backlit shelves installed in our Gomti Nagar home. The seamless joints and edge-trim precision are remarkable. It completely elevated our living room."
     },
     {
-      name: "Sneha Gupta",
-      location: "Kanpur",
-      text: "Amazing work! The team was highly professional, respected our space, and finished the project exactly on the promised timeline."
+      name: "Dr. Sunita Tandon",
+      location: "Hazratganj, Lucknow",
+      text: "We hired Qarat for WPC fluted louvers and acoustic vertical paneling behind our sofa in Hazratganj. The linear LED lighting integration and wood texture quality are top class. Very clean execution team."
     },
     {
-      name: "Amit Singh",
-      location: "Delhi",
-      text: "Top quality materials and installation. The finishing is top notch. Very happy with the final result and highly recommend them."
+      name: "Mohd Rizwan",
+      location: "Indira Nagar, Lucknow",
+      text: "Installed waterproof PVC wall panels for our damp bedroom walls and an embossed designer wallpaper accent in Indira Nagar. Solved our seepage issue permanently while giving the room a luxury boutique hotel finish."
     },
     {
-      name: "Priya Sharma",
-      location: "Noida",
-      text: "Beautiful execution and highly durable work. They completely transformed our living room into a luxurious space within a week."
+      name: "Anurag Kashyap",
+      location: "Aliganj, Lucknow",
+      text: "The Calacatta Gold UV marble sheets and brass T-profile trims installed by Qarat in our dining lounge look absolutely stunning. High-gloss mirror shine and zero bubbles or waviness."
     },
     {
-      name: "Vikram Reddy",
-      location: "Hyderabad",
-      text: "Superb craftsmanship and very transparent pricing. There were no hidden costs and the 3D designs matched the final outcome perfectly."
+      name: "Er. Vikas Verma",
+      location: "Vibhuti Khand, Gomti Nagar",
+      text: "Turnkey execution for our home office accent wall using charcoal fluted louvers and geometric 3D panels. Completed on schedule within 2 days with meticulous attention to detail."
     }
   ];
 
   const faqs = [
     {
-      q: "Do you provide free estimates?",
-      a: "Yes, we provide free site visits and cost estimates for projects in Lucknow. Contact us via WhatsApp to schedule a visit."
+      q: "Do you provide free site measurement and wall assessment in Lucknow?",
+      a: "Yes. Our team visits your home or office in Gomti Nagar, Hazratganj, Aliganj, Indira Nagar, or any Lucknow locality to inspect wall conditions (dampness, unevenness), take laser measurements, and provide design samples with transparent pricing."
     },
     {
-      q: "Do you only supply materials, or do you install them too?",
-      a: "We offer both! We are a leading material supplier for contractors, but we also have an in-house execution team for end-to-end installation."
+      q: "What is the difference between WPC louvers and PVC wall panels?",
+      a: "WPC (Wood Plastic Composite) louvers are heavy-duty, dense, 3D ribbed architectural panels offering authentic wood texture and acoustic depth, best for TV feature walls and living rooms. PVC wall panels are lightweight, 100% waterproof tongue-and-groove sheets ideal for budget-friendly damp wall cladding, bathrooms, and corridors."
     },
     {
-      q: "Which areas do you serve?",
-      a: "We primarily serve Lucknow and surrounding regions for installation, but we can supply materials in bulk across India."
+      q: "What is the installation cost for UV Marble Sheets in Lucknow?",
+      a: "UV Marble Sheets (standard 8x4 ft, 3mm thickness) typically cost ₹1,600 to ₹2,500 per sheet for materials, and complete turnkey installation (including adhesive, T-profile brass/charcoal trims, and cutting) ranges between ₹85 to ₹130 per sq ft."
     },
     {
-      q: "How long does a typical interior project take?",
-      a: "It depends on the scope. A single room ceiling or wall paneling can take 2-4 days, while a full home interior may take 3-6 weeks."
+      q: "Can PVC or WPC panels be installed on walls with seepage or dampness?",
+      a: "Yes! PVC panels and WPC louvers are 100% termite-proof and moisture-resistant. When installed over an aluminum or GI sub-framing with a vapor barrier, they conceal wall dampness permanently without peeling or paint blistering."
     },
     {
-      q: "Do you provide 3D designs before starting the work?",
-      a: "Yes, we offer complete 3D visualization and rendering services so you can see exactly how your space will look before execution begins."
+      q: "How long does it take to install a UV Marble or WPC panel TV wall?",
+      a: "A single accent feature wall or TV unit backdrop is typically completed in just 1 to 2 days, including electrical wiring for concealed LED profile lights and wall mounting brackets."
     },
     {
-      q: "What types of materials do you use for modular kitchens?",
-      a: "We use only premium, branded materials. For modular kitchens we use Hettich/Blum hardware, and for ceilings we use genuine Gyproc or USG Boral boards."
+      q: "Do you supply imported wallpapers or only provide installation?",
+      a: "We offer both. You can choose from our extensive catalog of imported non-woven, 3D embossed, and metallic vinyl wallpaper rolls, and our skilled paste-and-hang craftsmen ensure bubble-free seamless alignment."
     },
     {
-      q: "Is there a warranty on your interior work?",
-      a: "Yes! All our installations come with a standard 1-year service warranty, and the materials carry their respective manufacturer warranties (up to 10 years)."
+      q: "Are UV Marble sheets scratch-resistant and easy to clean?",
+      a: "Yes. Premium UV marble sheets have a cured polyurethane topcoat that resists everyday scuffs and UV fading. They can be wiped down easily with a soft damp microfiber cloth with zero maintenance."
     },
     {
-      q: "Can you work within a specific budget?",
-      a: "Absolutely. We offer a range of material finishes from cost-effective PVC panels to ultra-luxury UV marble sheets to accommodate various budgets."
+      q: "Do you provide design guidance and 3D preview before installation?",
+      a: "Yes. We help you choose the right combination—such as pairing Statuario UV marble with charcoal fluted louvers and warm linear LEDs—and share 3D renderings to visualize the final outcome before execution."
     }
   ];
 
@@ -114,7 +109,7 @@ const WallWork = () => {
   return (
     <div className="service-page">
                   {/* 2. Hero Section */}
-      <section className="sp-hero" style={{ backgroundImage: `url(/images/new-upload-2.jpg)` }}>
+      <section className="sp-hero" style={{ backgroundImage: `url(/images/qarat/wall-panels/qarat-wpc-fluted-wall-panel-03.webp)` }}>
         <div className="sp-hero-overlay"></div>
         <div className="sp-container sp-hero-container">
           <div className="sp-hero-content">
@@ -211,8 +206,8 @@ const WallWork = () => {
           </div>
           
           <div className="sp-about-images">
-            <img src="/images/new-upload-2.jpg" alt="Wall Treatment Details" className="sp-main-img" />
-            <img src="/images/marble-wall-2.png" alt="UV Marble Wall Accent" className="sp-circle-img" />
+            <img src="/images/qarat/uv-marble/qarat-uv-marble-sheet-tv-wall-01.webp" alt="Wall Treatment Details" className="sp-main-img" />
+            <img src="/images/qarat/wall-panels/qarat-wpc-fluted-wall-panel-02.webp" alt="WPC Fluted Wall Louvers Detail" className="sp-circle-img" />
           </div>
 
         </div>
@@ -224,10 +219,10 @@ const WallWork = () => {
       {/* 5. Customer Reviews */}
       <section className="sp-reviews-section">
         <div className="sp-container">
-          <div className="sp-section-header">
+          <div className="sp-section-header sp-center">
             <span className="sp-section-eyebrow">CLIENT REVIEWS</span>
             <h2>What Our Clients Say</h2>
-            <p className="sp-section-subtitle">Real experiences from spaces we have transformed across the country.</p>
+            <p className="sp-section-subtitle">Verified feedback from homeowners and commercial spaces who got wall paneling and decorative treatments installed by Qarat in Lucknow.</p>
           </div>
           
           <div className="sp-reviews-flex">

@@ -8,91 +8,73 @@ import FinalCTA from '../components/FinalCTA';
 const KitchenWork = () => {
   const services = [
     {
-      id: "modular-kitchen",
-      title: "Modular Kitchen Contractor",
-      img: "/images/kitchen-new-real.png",
-      desc: "Custom water-resistant modular kitchens tailored for Indian cooking with BWP Marine plywood, tandem pantry units, and branded soft-close hardware."
+      id: "l-shaped-kitchen",
+      title: "L-Shaped Modular Kitchen",
+      img: "/images/qarat/kitchen/qarat-modular-kitchen-cabinetry-02.webp",
+      desc: "Space-efficient two-wall corner layouts tailored for Indian cooking with boiling waterproof (BWP) marine ply, corner carousel units, and chimney integration."
     },
     {
-      id: "modular-wardrobes",
-      title: "Modular Wardrobe Contractor",
-      img: "/images/gallery-3.png",
-      desc: "Floor-to-ceiling sliding, hinged, and walk-in wardrobes engineered with premium laminate/acrylic finishes, sensor profile lighting, and smart organizers."
+      id: "island-parallel-kitchen",
+      title: "Island & Parallel Modular Kitchen",
+      img: "/images/qarat/kitchen/qarat-modular-kitchen-cabinetry-01.webp",
+      desc: "Spacious luxury layouts featuring central dining and prep islands, quartz waterfall countertops, parallel prep workflows, and ceiling pendant lighting."
     },
     {
-      id: "tv-units",
-      title: "TV Units & Media Consoles Contractor",
-      img: "/images/tv-unit-new.jpg",
-      desc: "Architectural wall-hung entertainment units combining fluted louvers, UV marble backdrops, concealed wiring, and ambient LED profile lights."
+      id: "acrylic-pu-cabinets",
+      title: "Acrylic & PU Modular Cabinets",
+      img: "/images/qarat/kitchen/qarat-modular-kitchen-cabinetry-03.webp",
+      desc: "High-gloss scratch-resistant acrylic and PU finishes with tinted glass profile shutters, under-cabinet warm LEDs, and Blum soft-close tandem drawers."
     },
     {
-      id: "custom-furniture",
-      title: "Custom Furniture & Shop Display Contractor",
-      img: "/images/gallery-2.png",
-      desc: "Bespoke vanities, crockery cupboards, executive study desks, and retail shop display counters crafted to exact site measurements."
+      id: "u-shaped-kitchen",
+      title: "U-Shaped Kitchen & Tall Pantry",
+      img: "/images/qarat/kitchen/qarat-modular-kitchen-cabinetry-05.webp",
+      desc: "Continuous three-wall counter layout offering maximum storage, integrated tall pantry open racks, corner utility, and separate wet and dry prep zones."
     }
   ];
 
   const reviews = [
     {
-      name: "Rahul Verma",
-      location: "Lucknow",
-      text: "The interior execution was flawless. The design team listened to all our requirements and delivered a spectacular commercial office setup."
+      name: "Suresh Gupta",
+      location: "Gomti Nagar, Lucknow",
+      text: "Qarat installed our L-shaped modular kitchen with BWP marine ply and Blum soft-close drawers. The finish is stunning and the corner carousel storage works smoothly."
     },
     {
-      name: "Sneha Gupta",
-      location: "Kanpur",
-      text: "Amazing work! The team was highly professional, respected our space, and finished the project exactly on the promised timeline."
+      name: "Ananya Saxena",
+      location: "Aliganj, Lucknow",
+      text: "Got an island modular kitchen done for our new home. Excellent quartz countertop cutting, neat chimney ducting, and completed right on the promised timeline."
     },
     {
-      name: "Amit Singh",
-      location: "Delhi",
-      text: "Top quality materials and installation. The finishing is top notch. Very happy with the final result and highly recommend them."
-    },
-    {
-      name: "Priya Sharma",
-      location: "Noida",
-      text: "Beautiful execution and highly durable work. They completely transformed our living room into a luxurious space within a week."
-    },
-    {
-      name: "Vikram Reddy",
-      location: "Hyderabad",
-      text: "Superb craftsmanship and very transparent pricing. There were no hidden costs and the 3D designs matched the final outcome perfectly."
+      name: "Mohd Tariq",
+      location: "Indira Nagar, Lucknow",
+      text: "Very professional team for kitchen cabinetry and modular bedroom wardrobes. Transparent pricing with branded Hettich hardware and zero hidden costs."
     }
   ];
 
   const faqs = [
     {
-      q: "Do you provide free estimates?",
-      a: "Yes, we provide free site visits and cost estimates for projects in Lucknow. Contact us via WhatsApp to schedule a visit."
+      q: "What material do you use for modular kitchen carcasses?",
+      a: "We use 100% Boiling Water Proof (BWP) 710 Grade Marine Plywood for all base and sink carcass cabinets to guarantee protection against water, humidity, and termites."
     },
     {
-      q: "Do you only supply materials, or do you install them too?",
-      a: "We offer both! We are a leading material supplier for contractors, but we also have an in-house execution team for end-to-end installation."
+      q: "What shutter finishes are available for modular kitchens?",
+      a: "We offer Anti-scratch High-Gloss Acrylic, PU Lacquer, Matte European Laminates, and Tinted Glass shutters with sleek aluminum profile handles."
     },
     {
-      q: "Which areas do you serve?",
-      a: "We primarily serve Lucknow and surrounding regions for installation, but we can supply materials in bulk across India."
+      q: "Which hardware and channel brands do you install?",
+      a: "We use authentic German and European hardware including Blum, Hettich, and Hafele for soft-close hinges, tandem box drawers, and tall pantry pull-outs."
     },
     {
-      q: "How long does a typical interior project take?",
-      a: "It depends on the scope. A single room ceiling or wall paneling can take 2-4 days, while a full home interior may take 3-6 weeks."
+      q: "How long does a modular kitchen take from order to installation?",
+      a: "Factory precision cutting and edge-banding takes 12 to 15 days, followed by 2 to 3 days of clean on-site assembly and appliance fitting at your home in Lucknow."
     },
     {
       q: "Do you provide 3D designs before starting the work?",
-      a: "Yes, we offer complete 3D visualization and rendering services so you can see exactly how your space will look before execution begins."
+      a: "Yes, our team creates realistic 3D visualizations and ergonomic layout drawings so you can review colors, storage configurations, and counter heights before fabrication."
     },
     {
-      q: "What types of materials do you use for modular kitchens?",
-      a: "We use only premium, branded materials. For modular kitchens we use Hettich/Blum hardware, and for ceilings we use genuine Gyproc or USG Boral boards."
-    },
-    {
-      q: "Is there a warranty on your interior work?",
-      a: "Yes! All our installations come with a standard 1-year service warranty, and the materials carry their respective manufacturer warranties (up to 10 years)."
-    },
-    {
-      q: "Can you work within a specific budget?",
-      a: "Absolutely. We offer a range of material finishes from cost-effective PVC panels to ultra-luxury UV marble sheets to accommodate various budgets."
+      q: "Is there a warranty on your modular kitchen installations?",
+      a: "Yes. All our installations carry an in-house 1-year service warranty, along with manufacturer warranties up to 10 years on marine ply and lifetime warranties on premium hardware."
     }
   ];
 
@@ -107,8 +89,8 @@ const KitchenWork = () => {
 
   return (
     <div className="service-page">
-                  {/* 2. Hero Section */}
-      <section className="sp-hero" style={{ backgroundImage: `url(/images/kitchen-4.png)` }}>
+      {/* 2. Hero Section */}
+      <section className="sp-hero" style={{ backgroundImage: `url(/images/qarat/kitchen/qarat-modular-kitchen-cabinetry-01.webp)` }}>
         <div className="sp-hero-overlay"></div>
         <div className="sp-container sp-hero-container">
           <div className="sp-hero-content">
@@ -205,8 +187,8 @@ const KitchenWork = () => {
           </div>
           
           <div className="sp-about-images">
-            <img src="/images/kitchen-4.png" alt="Modular Kitchen Installation" className="sp-main-img" />
-            <img src="/images/gallery-3.png" alt="Modular Wardrobe Design" className="sp-circle-img" />
+            <img src="/images/qarat/kitchen/qarat-modular-kitchen-cabinetry-02.webp" alt="Modular Kitchen Installation" className="sp-main-img" />
+            <img src="/images/qarat/kitchen/qarat-modular-kitchen-cabinetry-03.webp" alt="Modular Kitchen Cabinet Detail" className="sp-circle-img" />
           </div>
 
         </div>
@@ -216,31 +198,26 @@ const KitchenWork = () => {
       <ProjectGallery category="kitchen" />
 
       {/* 5. Customer Reviews */}
-      <section className="sp-reviews-section">
+      <section className="sp-section sp-reviews-section">
         <div className="sp-container">
-          <div className="sp-section-header">
-            <span className="sp-section-eyebrow">CLIENT REVIEWS</span>
+          <div className="sp-section-header sp-center">
+            <span className="sp-eyebrow-dark">Verified Feedback</span>
             <h2>What Our Clients Say</h2>
-            <p className="sp-section-subtitle">Real experiences from spaces we have transformed across the country.</p>
+            <p className="sp-section-subtitle">Real feedback from homeowners who got modular kitchens and wardrobes made by Qarat in Lucknow.</p>
           </div>
           
-          <div className="sp-reviews-flex">
+          <div className="sp-reviews-grid">
             {reviews.map((review, idx) => (
               <div key={idx} className="sp-review-card">
-                <div className="sp-stars">
-                  <Star size={14} color="#B79A6B" fill="#B79A6B" />
-                  <Star size={14} color="#B79A6B" fill="#B79A6B" />
-                  <Star size={14} color="#B79A6B" fill="#B79A6B" />
-                  <Star size={14} color="#B79A6B" fill="#B79A6B" />
-                  <Star size={14} color="#B79A6B" fill="#B79A6B" />
+                <div className="sp-review-stars">
+                  {[...Array(5)].map((_, i) => (
+                    <Star key={i} size={16} fill="#B79A6B" color="#B79A6B" />
+                  ))}
                 </div>
                 <p className="sp-review-text">"{review.text}"</p>
-                <div className="sp-review-footer">
-                  <div className="sp-review-avatar">{review.name.charAt(0)}</div>
-                  <div className="sp-review-author">
-                    <h4>{review.name}</h4>
-                    <p>{review.location}</p>
-                  </div>
+                <div className="sp-review-author">
+                  <strong>{review.name}</strong>
+                  <span>{review.location}</span>
                 </div>
               </div>
             ))}

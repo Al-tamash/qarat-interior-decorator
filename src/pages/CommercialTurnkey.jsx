@@ -8,28 +8,28 @@ import FinalCTA from '../components/FinalCTA';
 const CommercialTurnkey = () => {
   const services = [
     {
-      id: "office-interior",
-      title: "Office & Corporate Interior Contractor",
-      img: "/images/interior-work-new.jpg",
-      desc: "Turnkey office fit-outs in Lucknow. From acoustic drywall cabin partitions and modular workstations to executive conference rooms and LED grid ceilings."
+      id: "office-reception",
+      title: "Corporate Offices & Reception Lobbies",
+      img: "/images/qarat/commercial/qarat-corporate-office-interior-01.webp",
+      desc: "Turnkey reception lobbies, conference rooms, acoustic drywall partitions, and brand feature walls for corporate firms in Lucknow."
     },
     {
-      id: "shop-interior",
-      title: "Shop & Showroom Interior Contractor",
-      img: "/images/new-upload-3.jpg",
-      desc: "High-impact retail environments with custom display shelving, cashier counters, spot track lighting, and luxury UV marble or fluted wall facades."
+      id: "office-workstations",
+      title: "Modular Workstations & Office Floors",
+      img: "/images/qarat/commercial/qarat-corporate-office-interior-02.webp",
+      desc: "High-density modular desk clusters, concealed power and LAN cabling, acoustic desk screens, and 2x2 grid ceilings for IT firms and corporate teams."
+    },
+    {
+      id: "executive-cabins",
+      title: "Executive Director & CEO Cabins",
+      img: "/images/qarat/commercial/qarat-corporate-office-interior-04.webp",
+      desc: "Bespoke executive cabins with custom brass display shelving, architectural profile lighting, fluted wall louvers, and sound-insulated acoustic doors."
     },
     {
       id: "home-turnkey",
-      title: "Home & Residential Turnkey Contractor",
-      img: "/images/ceiling-hero-new.png",
-      desc: "Complete flat and villa turnkey execution. Combining designer false ceilings, modular kitchens, custom wardrobes, and wall panelling under one contract."
-    },
-    {
-      id: "commercial-spaces",
-      title: "Commercial & Institutional Spaces Contractor",
-      img: "/images/new-upload-4.jpg",
-      desc: "Hospital clinics, educational institutes, banquet halls, cafes, and restaurant interiors engineered for durability, safety, and customer flow."
+      title: "Home & Residential Turnkey Fit-Outs",
+      img: "/images/qarat/residential/qarat-residential-turnkey-bedroom-01.webp",
+      desc: "End-to-end flat and villa turnkey execution from bare shell to handover, covering designer false ceilings, modular kitchens, wardrobes, and luxury decor."
     }
   ];
 
@@ -82,7 +82,7 @@ const CommercialTurnkey = () => {
   return (
     <div className="service-page">
       {/* Hero Section */}
-      <section className="sp-hero" style={{ backgroundImage: `url(/images/interior-work-new.jpg)` }}>
+      <section className="sp-hero" style={{ backgroundImage: `url(/images/qarat/commercial/qarat-corporate-office-interior-06.webp)` }}>
         <div className="sp-hero-overlay"></div>
         <div className="sp-container sp-hero-container">
           <div className="sp-hero-content">
@@ -179,7 +179,7 @@ const CommercialTurnkey = () => {
       </section>
 
       {/* Project Gallery */}
-      <ProjectGallery category="all" />
+      <ProjectGallery category="commercial" />
 
       {/* Client Reviews */}
       <section className="sp-section sp-reviews-section">

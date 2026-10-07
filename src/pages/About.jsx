@@ -56,7 +56,7 @@ const About = () => {
             <div className="about-image-wrapper">
               <div className="about-image-card">
                 <img 
-                  src="/images/ceiling-hero-new.png" 
+                  src="/images/qarat/commercial/qarat-corporate-office-interior-01.webp" 
                   alt="Precision interior craftsmanship by Qarat Interior Decorator" 
                   className="about-main-img" 
                 />

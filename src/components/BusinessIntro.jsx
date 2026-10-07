@@ -32,48 +32,48 @@ const BusinessIntro = () => {
         <div className="bi-cards-row">
           
           {/* Card 1 */}
-          <div className="bi-card">
-            <img src="/images/interior-work-new.jpg" alt="Ceiling Solutions" className="bi-card-bg" />
+          <Link to="/interior-work/ceiling-work" className="bi-card">
+            <img src="/images/qarat/ceiling/qarat-gypsum-false-ceiling-04.webp" alt="Ceiling & Partition Solutions" className="bi-card-bg" />
             <div className="bi-card-overlay">
               <div className="bi-card-icon">
                 <Hammer size={24} color="#B79A6B" />
               </div>
-              <h3 className="bi-card-title">Interior Work</h3>
+              <h3 className="bi-card-title">Ceiling &amp; Partition Work</h3>
             </div>
-          </div>
+          </Link>
 
           {/* Card 2 */}
-          <div className="bi-card">
-            <img src="/images/new-upload-1.jpg" alt="Material Supply" className="bi-card-bg" />
+          <Link to="/interior-work/wall-decorative-work" className="bi-card">
+            <img src="/images/qarat/wall-panels/qarat-wpc-fluted-wall-panel-03.webp" alt="Decorative Wall Panels & Louvers" className="bi-card-bg" />
             <div className="bi-card-overlay">
               <div className="bi-card-icon">
                 <Cuboid size={24} color="#B79A6B" />
               </div>
-              <h3 className="bi-card-title">WPC Material Supply</h3>
+              <h3 className="bi-card-title">Decorative Wall Panels</h3>
             </div>
-          </div>
+          </Link>
 
           {/* Card 3 */}
-          <div className="bi-card">
-            <img src="/images/kitchen-4.png" alt="Modular Kitchen" className="bi-card-bg" />
+          <Link to="/interior-work/modular-kitchen-furniture" className="bi-card">
+            <img src="/images/qarat/kitchen/qarat-modular-kitchen-cabinetry-01.webp" alt="Modular Kitchen & Cabinetry" className="bi-card-bg" />
             <div className="bi-card-overlay">
               <div className="bi-card-icon">
                 <Sofa size={24} color="#B79A6B" />
               </div>
-              <h3 className="bi-card-title">Modular Kitchen</h3>
+              <h3 className="bi-card-title">Modular Kitchens</h3>
             </div>
-          </div>
+          </Link>
 
           {/* Card 4 */}
-          <div className="bi-card">
-            <img src="/images/uv-marble-supply-new.jpg" alt="Decorative Solutions" className="bi-card-bg" />
+          <Link to="/interior-work/wall-decorative-work" className="bi-card">
+            <img src="/images/qarat/uv-marble/qarat-uv-marble-sheet-tv-wall-02.webp" alt="UV Marble Sheet TV Entertainment Units" className="bi-card-bg" />
             <div className="bi-card-overlay">
               <div className="bi-card-icon">
                 <Sparkles size={24} color="#B79A6B" />
               </div>
-              <h3 className="bi-card-title">PVC TV Unit</h3>
+              <h3 className="bi-card-title">UV Marble TV Units</h3>
             </div>
-          </div>
+          </Link>
 
         </div>
         

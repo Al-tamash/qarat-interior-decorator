@@ -25,7 +25,7 @@ const InteriorWork = () => {
             
             <Link to="/interior-work/ceiling-work" className="cat-card">
               <div className="cat-img-wrapper">
-                <img src="/images/ceiling-hero-new.png" alt="Ceiling & Partition Work" className="cat-img" />
+                <img src="/images/qarat/ceiling/qarat-gypsum-false-ceiling-04.webp" alt="Ceiling & Partition Work" className="cat-img" />
               </div>
               <div className="cat-content">
                 <h3 className="cat-title">Ceiling &amp; Partition Work</h3>
@@ -42,7 +42,7 @@ const InteriorWork = () => {
 
             <Link to="/interior-work/wall-decorative-work" className="cat-card">
               <div className="cat-img-wrapper">
-                <img src="/images/floral-living-room.jpg" alt="Wall & Decorative Work" className="cat-img" />
+                <img src="/images/qarat/wall-panels/qarat-wpc-fluted-wall-panel-03.webp" alt="Wall & Decorative Work" className="cat-img" />
               </div>
               <div className="cat-content">
                 <h3 className="cat-title">Wall &amp; Decorative Work</h3>
@@ -59,7 +59,7 @@ const InteriorWork = () => {
 
             <Link to="/interior-work/modular-kitchen-furniture" className="cat-card">
               <div className="cat-img-wrapper">
-                <img src="/images/kitchen-4.png" alt="Modular Kitchen & Furniture" className="cat-img" />
+                <img src="/images/qarat/kitchen/qarat-modular-kitchen-cabinetry-01.webp" alt="Modular Kitchen & Furniture" className="cat-img" />
               </div>
               <div className="cat-content">
                 <h3 className="cat-title">Modular Kitchen &amp; Furniture</h3>
@@ -75,7 +75,7 @@ const InteriorWork = () => {
 
             <Link to="/interior-work/commercial-turnkey-interiors" className="cat-card">
               <div className="cat-img-wrapper">
-                <img src="/images/interior-work-new.jpg" alt="Commercial & Turnkey Interiors" className="cat-img" />
+                <img src="/images/qarat/commercial/qarat-corporate-office-interior-01.webp" alt="Commercial & Turnkey Interiors" className="cat-img" />
               </div>
               <div className="cat-content">
                 <h3 className="cat-title">Commercial &amp; Turnkey</h3>

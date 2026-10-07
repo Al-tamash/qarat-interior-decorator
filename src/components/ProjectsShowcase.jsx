@@ -10,22 +10,22 @@ const ProjectsShowcase = () => {
 
       <div className="ps-container">
         <Link to="/projects" className="ps-card ps-top">
-          <img src="/images/ceiling-hero-new.png" alt="Luxury Residence" className="ps-img" />
+          <img src="/images/qarat/commercial/qarat-corporate-office-interior-06.webp" alt="Corporate Headquarters Reception" className="ps-img" />
         </Link>
         <Link to="/projects" className="ps-card ps-bottom-card">
-          <img src="/images/new-upload-3.jpg" alt="Modern Office" className="ps-img" />
+          <img src="/images/qarat/residential/qarat-residential-turnkey-bedroom-04.webp" alt="Contemporary Master Bedroom" className="ps-img" />
         </Link>
         <Link to="/projects" className="ps-card ps-bottom-card">
-          <img src="/images/uv-marble-supply-new.jpg" alt="Retail Showroom" className="ps-img" />
+          <img src="/images/qarat/uv-marble/qarat-uv-marble-sheet-tv-wall-01.webp" alt="UV Marble Sheet Media Wall" className="ps-img" />
         </Link>
         <Link to="/projects" className="ps-card ps-bottom-card">
-          <img src="/images/kitchen-4.png" alt="Modular Kitchen" className="ps-img" />
+          <img src="/images/qarat/kitchen/qarat-modular-kitchen-cabinetry-01.webp" alt="Island Modular Kitchen" className="ps-img" />
         </Link>
         <Link to="/projects" className="ps-card ps-bottom-card">
-          <img src="/images/ceiling-3.png" alt="Ceiling Work" className="ps-img" />
+          <img src="/images/qarat/ceiling/qarat-gypsum-false-ceiling-04.webp" alt="Stepped Cove Ceiling" className="ps-img" />
         </Link>
         <Link to="/projects" className="ps-card ps-bottom-card">
-          <img src="/images/new-upload-1.jpg" alt="Fluted Panel" className="ps-img" />
+          <img src="/images/qarat/wall-panels/qarat-wpc-fluted-wall-panel-03.webp" alt="WPC Fluted Louvers" className="ps-img" />
         </Link>
       </div>
 

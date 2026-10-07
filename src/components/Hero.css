@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  background-image: url('/images/ceiling-hero-new.png');
+  background-image: url('/images/qarat/residential/qarat-residential-turnkey-bedroom-01.webp');
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -100,6 +100,8 @@
 /* Base Card Style */
 .hero-card {
   position: absolute;
+  display: block;
+  text-decoration: none;
   width: 220px;
   height: 320px;
   border-radius: 12px;
